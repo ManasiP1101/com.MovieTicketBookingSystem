@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.ticket-details {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-details h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-info, .bus-info, .ticket-info {
+    margin-bottom: 20px;
+}
+
+.user-info h3, .bus-info h3, .ticket-info h3 {
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+strong {
+    color: #333;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
